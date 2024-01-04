@@ -1,0 +1,80 @@
+body {
+    width: 800px;
+    height: 400px;
+    text-align: center;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+header {
+    width: 100%;
+    height: 10%;
+    line-height: 2;
+    background-color: rgb(227, 227, 227);
+}
+main {
+    display: flex;
+    width: 100%;
+    height: 70%;
+    line-height: 3;
+    background-color: rgb(255, 248, 239);
+}
+
+.mainPart {
+    width: 65%;
+    flex-direction: c;
+    justify-content: space-around;
+    justify-content: flex-end;
+    align-self: flex-end;
+}
+#Part.mainPart {
+    display: flex;
+    justify-content: space-around;
+    justify-content: flex-start;
+    align-self: flex-start;
+    margin: 0;
+    padding: 0;
+}
+.mainPart1 {
+    display: flex;
+    justify-content: space-between;
+}
+#mainPart1_1, #mainPart1_2  {
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    margin: 10px;
+    background-color: bisque;
+}
+
+#mainPart2 {
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+    background-color: bisque;
+}
+
+.asidePart {
+    display: flex;
+    justify-content: center;
+    width: 35%;
+    line-height: 3;
+    background-color: rgb(236, 240, 240);
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    justify-content: space-around;
+    margin: 0px;
+    background-color: rgb(227, 227, 227);
+}
+
+#F1, #F2, #F3, #F4 {
+    width: 175px;
+    height: 50px;
+    margin: 15px;
+    background-color: white;
+    line-height: 3;
+}
